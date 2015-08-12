@@ -31,8 +31,8 @@
     z-index: 1000;
     opacity: 1;
 
-    -webkit-animation-duration: 1.1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
     -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
     -webkit-animation-name: fadeout;
@@ -74,14 +74,36 @@ body {
     text-transform: uppercase;
     -webkit-text-stroke: 2px black;
     color: white;
+    overflow-y: scroll;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: black;
+}
+
+#menu #picture-overlay {
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#menu #picture-overlay.show {
+    display: block;
+    background: red;
 }
 
 ul {
     list-style-type: none;
-}
-
-li:hover{
-    color: black;
 }
 
 #content {
