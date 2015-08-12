@@ -8,10 +8,10 @@
 
 
     <body>
-    	<!--<div id="loader-wrapper">
+    	<div id="loader-wrapper">
     		<div id="loader">mall
     		</div>
-    	</div>-->
+    	</div>
     	<div id="menu">
     		<ul>
     			<li>about</li>
@@ -63,14 +63,12 @@
     	</div>
     </div>
 
-    </body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-    	var e = document.getElementById("loader-wrapper");
-    	e.addEventListener("animationend", function () {
-    		e.style.display = 'none';
-    	}, false)
+        setTimeout(function() {
+            $("#loader-wrapper").addClass("done");
+        }, 2500);
     </script>
 
-
+    </body>
 </html>
