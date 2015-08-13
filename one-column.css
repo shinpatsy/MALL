@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+  #menu {
+    display: none;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  h1.subbed {
+    display: block;
+  }
+}

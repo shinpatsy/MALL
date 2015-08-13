@@ -3,133 +3,91 @@
     <head>
         <title>MALL</title>
 
-        <link type="text/css" rel="stylesheet" href="mall.css"/> 
+        <meta name="viewport" content="user-scalable=no">
+
+        <link type="text/css" rel="stylesheet" href="mall.css"/>
+        <link type="text/css" rel="stylesheet" href="one-column.css"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="the-code.js"></script>
     </head>
 
-
     <body>
-    	<div id="loader-wrapper">
-    		<div id="loader">mall
-    		</div>
-    	</div>
-    	<div id="menu">
-    		<ul>
-    			<li><a href="#about">about</a></li>
-    			<li><a href="#schedule">schedule</a></li>
+        <div id="loader-wrapper">
+            <div id="loader">mall</div>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#schedule">schedule</a></li>
                 <li><a href="#collaborators">collaborators</a></li>
                 <li><a href="#food-court">food court</a></li>
-    			<li><a href="#mall-directory">mall directory</a></li>
+                <li><a href="#mall-directory">mall directory</a></li>
                 <li><a href="#thank-you">thank you</a></li>
-    			<li><a href="#newsletter">newsletter</a></li>
-    			<li><a href="#contact">contact</a></li>
-    		</ul>
+                <li><a href="#newsletter">newsletter</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
             <div id="picture-overlay"></div>
-    	</div>
-    	<div id="content">
-    	<div id="about">
-    		Mall no. 2 is the second in a series of projects by 7D8 and V. Project that explore experiences around emerging concepts in product, fashion, graphic, and retail design. Mall no. 2 will be held at the Utah Museum of Contemporary Art in Salt Lake City from August 14&ndash;September 12, 2015.
-    	</div>
+        </div>
+        <div id="content">
+            <div id="about" class="section">
+                <p>
+                    Mall no. 2 is the second in a series of projects by 7D8 and V. Project that explore experiences around emerging concepts in product, fashion, graphic, and retail design. Mall no. 2 will be held at the Utah Museum of Contemporary Art in Salt Lake City from August 14&ndash;September 12, 2015.
+                </p>
+            </div>
 
-    	<div id="schedule">
-    		<h1 class="black">schedule
-    		</h1>
-    	</div>
+            <div id="schedule" class="section">
+                <h1 class="black">schedule</h1>
+            </div>
 
-    	<div id="collaborators">
-    		<h1 class="white">collaborators
-    		</h1>
-    		<div id="collaborators-list">
-    			<div data-hover-photo="http://thecatapi.com/api/images/get?format=src&type=png&other=1">
-                    Andrew Neyer
+            <div id="collaborators" class="section">
+                <h1 class="white">collaborators</h1>
+                <div id="collaborators-list">
+                    <div data-hover-photo="http://thecatapi.com/api/images/get?format=src&type=png&other=1">
+                        Andrew Neyer
+                    </div>
+                    <div data-hover-photo="http://thecatapi.com/api/images/get?format=src&type=png&other=2">Draw Down Books</div>
+                    <div>Elish Warlop</div>
+                    <div>Form Us With Love</div>
+                    <div>HORT</div>
+                    <div>Johanna Schmeer</div>
+                    <div>Jugar</div>
+                    <div>Lo&iuml;c Bard</div>
+                    <div>LUUR</div>
+                    <div>Mansi Shah</div>
+                    <div>Maximilian Heitsch</div>
+                    <div>Mercury Bureau</div>
+                    <div>PMOD</div>
+                    <div>Umbra Shift</div>
+                    <div>Sahn</div>
+                    <div>Thing Industries</div>
+                    <div>Tokyobike</div>
+                    <div>Tunica Mag</div>
                 </div>
-                <div data-hover-photo="http://thecatapi.com/api/images/get?format=src&type=png&other=2">Draw Down Books</div>
-                <div>Elish Warlop</div>
-                <div>Form Us With Love</div>
-                <div>HORT</div>
-                <div>Johanna Schmeer</div>
-                <div>Jugar</div>
-                <div>Lo&iuml;c Bard</div>
-                <div>LUUR</div>
-                <div>Mansi Shah</div>
-                <div>Maximilian Heitsch</div>
-                <div>Mercury Bureau</div>
-                <div>PMOD</div>
-                <div>Umbra Shift</div>
-                <div>Sahn</div>
-                <div>Thing Industries</div>
-                <div>Tokyobike</div>
-                <div>Tunica Mag</div>
-    		</div>
-    	</div>
+            </div>
 
-        <div id="food-court">
-    		<h1 class="black">food court
-    		</h1>
-    	</div>
+            <div id="food-court" class="section">
+                <h1 class="black">food court</h1>
+            </div>
 
-    	<div id="mall-directory">
-    		<h1 class="white">mall directory
-    		</h1>
-    	</div>
+            <div id="mall-directory" class="section">
+                <h1 class="white">mall directory</h1>
+            </div>
 
-        <div id="thank-you">
-            Thanks to a bunch of people
+            <div id="thank-you" class="section">
+                Thanks to a bunch of people
+            </div>
+
+            <div id="newsletter" class="section">
+                <div id="newsletter-box">
+                    Some newsletter thing
+                </div>
+            </div>
+
+            <div id="contact" class="section">
+                Some contact info
+            </div>
         </div>
-
-    	<div id="newsletter">
-    		<div id="newsletter-box">
-                Some newsletter thing
-    		</div>
-    	</div>
-
-        <div id="contact">
-            Some contact info
-        </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>
-
-        // Hide the loader
-        setTimeout(function() {
-            $("#loader-wrapper").addClass("done");
-        }, 2500);
-
-        // Scroll smoothly when navigating with menu
-        $("#menu a").click(function(e) {
-            e.preventDefault();
-
-            var target = $(this).attr("href");
-
-            $('html, body').animate({
-                scrollTop: $(target).offset().top
-            }, 1000);
-        });
-
-        // Replace menu with picture for collaborators hover
-        var collabId = 0;
-        $("#collaborators-list > div").each(function(el) {
-            // Assign each collaborator an id
-            //$(this).attr("id", "collab-" + (++collabId));
-
-            var imageUrl = $(this).attr("data-hover-photo");
-
-            // On hover of this element, show the picture overlay and make the src
-            // the same as this collaborator
-            $(this).hover(function() {
-                $("#picture-overlay").addClass("show");
-                $("#menu ul").hide();
-                $("#picture-overlay").css({
-                    'background-image': 'url(' + imageUrl + ')'
-                })
-            }, function() {
-                $("#picture-overlay").removeClass("show");
-                $("#menu ul").show();
-            });
-        });
-
-
-    </script>
-
     </body>
 </html>
